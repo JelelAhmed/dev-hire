@@ -1,0 +1,40 @@
+.home {
+	width: 100%;
+	min-height: inherit;
+	background: #E5E5E5;
+	flex: 1;
+	color: #14142B;
+	background-color: green;
+	display: flex;
+
+	&-container {
+   	min-height: 80%;
+		margin: 11.4rem 8.3rem 4rem 4.5rem;
+		display: flex;
+		flex-direction: column;
+		background-color: red;
+		width: 100%;
+	}
+
+	&-heading {
+		font-family: 'Poppins';
+		font-style: normal;
+		font-weight: 700;
+		font-size: 3.2rem;
+		line-height: 3.4rem;
+
+		letter-spacing: .1rem;
+	}
+
+	&-dashboard {
+		// display: flex;
+		height: 100%;
+		margin-top: 7.2rem;
+	}
+}
+
+
+//45
+//114
+//83px
+///40

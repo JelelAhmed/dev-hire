@@ -1,0 +1,38 @@
+$color-base: #E5E5E5;
+$bp-largest: 75em;  //// == 1200px
+$bp-large: 62.5em;  //// == 1000px
+$bp-medium: 56.25em; //// == 900px
+$bp-small: 37.5em;  //// == 600px
+$bp-smaller: 31.25em; // == 500px;
+$bp-smallest: 21.875em; // == 350px;
+
+
+*,
+*::before,
+*::after {
+	padding: 0;
+	margin: 0;
+	box-sizing: inherit;
+}
+
+
+ /* 10px/16px = 62.5% // Overall Font size == 1rem */
+
+html {
+	font-size: 62.5%;
+	box-sizing: border-box;
+
+	@media only screen and(max-width: $bp-largest) {
+		font-size: 50%;
+	}
+}
+
+
+body {
+	font-family: "Open Sans", sans-serif;
+	line-height: 1.7;
+	background-color: #E5E5E5;
+	font-weight: 400;
+	
+}
+

@@ -1,0 +1,67 @@
+.select {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 167px;
+	height: 42px;
+
+	border: 1px solid #8692A6;
+	border-radius: 6px;
+
+	&-currency {
+		width: 100%;
+		display: flex;
+		justify-content: space-around;
+	}
+
+	&-flag {
+
+
+		&> img {
+			width: 2.5rem;
+			height: 2rem;
+		}
+	
+	}
+
+	&-dropdown {
+		border: none;
+		outline: none;
+		background-color: inherit;
+		padding-right: 5rem;
+		font-family: 'Inter';
+		font-style: normal;
+		font-weight: 500;
+		font-size: 1.4rem;
+		line-height: 2.7rem;
+		display: flex;
+		align-items: center;
+		cursor: pointer;
+
+		
+		& > option {
+			background-color: #E5E5E5;
+			display: flex;
+			align-items: center;
+			cursor: pointer;
+			padding: 3rem;
+			color: #8692A6;
+		
+
+			display: flex;
+			align-items: center;
+		}
+	}
+
+	&-name {
+		font-family: 'Inter';
+		font-style: normal;
+		font-weight: 500;
+		font-size: 1.4rem;
+		line-height: 1.7rem;
+		margin-left: 2rem;
+
+		color: #8692A6;
+	}
+}
+
